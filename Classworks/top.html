@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Top Frame</title>
+  <style>
+    body{margin:0;font-family:Arial,Helvetica,sans-serif}
+    .top{display:flex;align-items:center;justify-content:space-between;padding:12px 18px;background:#f5c8a0;border-bottom:4px solid #b77a4d}
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand img{height:72px}
+    nav a{margin-left:12px;text-decoration:none;padding:8px 12px;border-radius:6px;background:#fff;color:#333;border:1px solid #e0b792}
+  </style>
+</head>
+<body>
+  <div class="top">
+    <div class="brand">
+      <img src="https://via.placeholder.com/80x72?text=Logo" alt="Logo">
+      <div>
+        <div style="font-weight:700;font-size:20px">ABC College Bookstore</div>
+        <div style="font-size:12px;color:#333">Online Catalogue & Student Orders</div>
+      </div>
+    </div>
+    <nav>
+      <!-- target right frame so link content loads into rightFrame -->
+      <a href="homepage.html" target="rightFrame">Homepage</a>
+      <a href="login.html" target="rightFrame">Login</a>
+      <a href="registration.html" target="rightFrame">Registration</a>
+      <a href="catalogue.html" target="rightFrame">Catalogue</a>
+      <a href="cart.html" target="rightFrame">Cart</a>
+    </nav>
+  </div>
+</body>
+</html>

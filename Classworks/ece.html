@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>CSE Catalogue</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:18px}
+    table{width:100%;border-collapse:collapse}
+    th,td{padding:8px;border:1px solid #ddd;text-align:left}
+    th{background:#f0cba0}
+    .buy{padding:6px 10px;border-radius:6px;border:none;cursor:pointer}
+  </style>
+</head>
+<body>
+  <h2>ECE Books Catalogue</h2>
+  <table>
+    <thead>
+      <tr><th>ISBN</th><th>Title</th><th>Author</th><th>Price</th><th>Action</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>978-1</td><td>Intro to Algorithms</td><td>CLRS</td><td>₹950</td><td><button class="buy" onclick="alert('Add to cart (demo)')">Add</button></td></tr>
+      <tr><td>978-2</td><td>Operating Systems</td><td>Tanenbaum</td><td>₹780</td><td><button class="buy" onclick="alert('Add to cart (demo)')">Add</button></td></tr>
+      <tr><td>978-3</td><td>Computer Networks</td><td>Tanenbaum</td><td>₹650</td><td><button class="buy" onclick="alert('Add to cart (demo)')">Add</button></td></tr>
+    </tbody>
+  </table>
+</body>
+</html>

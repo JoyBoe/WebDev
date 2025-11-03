@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+@keyframes example{
+    from{
+        background-color: blue;
+    }
+    to{
+        background-color: azure;
+    }
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin-left: 1328px;
+    margin-top: -200px;
+    animation-name: example1;
+    animation-duration: 5s;
+}
+@keyframes example2{
+    0% {background-color: white}
+    25% {background-color: aquamarine;}
+    100% {background-color: black;}
+}
